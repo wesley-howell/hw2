@@ -5,34 +5,45 @@
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Website Navigation</h1>
-        <a href="index.html">Return to Home</a>
-        
-        <a href="about-us.html">About Us</a>
+        <div>
+            <h1 class="text-center mt-8 font-bold text-lg">Website Navigation</h1>
+            <p class="text-center mt-1 text-base"><a href="index.html">Return to Home</a></p>
+            <p class="text-center mt-1 mb-4 text-base"><a href="about-us.html">About Us</a></p>
+        </div>
 
-        <h2>New Vehicle Inventory</h2>
+        <div>
+            <h2 class="text-center m-8 font-bold text-xl text-blue-700">New Vehicle Inventory</h2>
+        </div>
 
-        <h3>2021 Ford Bronco Sport</h3>
-        
-        <p><img src="https://pictures.dealer.com/fd-FD_DEALERSERVICES_IMAGES/7de669c6ef18c0a2504ce7a6be384172.jpg?impolicy=downsize_bkpt&imdensity=1&w=520"></p> 
-        
-        <ul>
-            <li>Landers' Pricing $28,000</li>
-            <li>Emergency communication system</li>
-            <li>Fully automatic headlights</li>
-            <li>Wireless phone connectivity</li>
-            <li>Security system</li>
-        </ul>
+        <div class="md:flex items-center m-4 p-4">
+            <div class="md:w-1/2 px-2">
+                <h3>2021 Ford Bronco Sport</h3>
+                <p><img src="https://pictures.dealer.com/fd-FD_DEALERSERVICES_IMAGES/7de669c6ef18c0a2504ce7a6be384172.jpg?impolicy=downsize_bkpt&imdensity=1&w=520"></p>
+            </div> 
+            <div class="md:w-1/2 px-2">
+                <ul>
+                    <li>Landers' Pricing $28,000</li>
+                    <li>Emergency communication system</li>
+                    <li>Fully automatic headlights</li>
+                    <li>Wireless phone connectivity</li>
+                    <li>Security system</li>
+                </ul>
+            </div>
+        </div>
 
-        <h3>2021 Ford Explorer XLT SUV</h3>
-
-        <p><img src="https://pictures.dealer.com/fd-FD_DEALERSERVICES_IMAGES/6c49723020a1be131758aa950de45821.jpg?impolicy=resize&w=768"></p>
-        
-        <ul>
-            <li>Landers' Pricing $40,00</li>
-            <li>Emergency communication system</li>
-            <li>Fully automatic headlights</li>
-            <li>Wireless phone connectivity</li>
-        </ul>
+        <div class="md:flex items-center m-4 p-4">
+            <div class="md:w-1/2 px-2">
+                <h3>2021 Ford Explorer XLT SUV</h3>
+                <p><img src="https://pictures.dealer.com/fd-FD_DEALERSERVICES_IMAGES/6c49723020a1be131758aa950de45821.jpg?impolicy=resize&w=768"></p>
+            </div>        
+            <div class="md:w-1/2 px-2">
+                <ul>
+                    <li>Landers' Pricing $40,00</li>
+                    <li>Emergency communication system</li>
+                    <li>Fully automatic headlights</li>
+                    <li>Wireless phone connectivity</li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
